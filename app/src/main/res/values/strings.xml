@@ -1,0 +1,68 @@
+<resources>
+    <string name="banner_ad_unit_id" translatable="false">ca-app-pub-5293489928998755/9769171024</string>
+    <string name="interstical_ad_unit_id" translatable="false">ca-app-pub-5293489928998755/6815704623</string>
+    <string name="app_name">GPS Mobile</string>
+
+    <string name="dialog_config_location_positive">Settings</string>
+    <string name="dialog_config_location_negative">Ignore</string>
+    <string name="dialog_config_location_title">Location Settings</string>
+    <string name="dialog_config_location_msg">Please turn on location in the system settings.</string>
+
+    <string name="location_not_actived">Location Not Activated</string>
+    <string name="location_atived">Location Activated</string>
+    <string name="turn_off">Turn Off</string>
+    <string name="turn_on">Turn On</string>
+    <string name="current_position">Current Position</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+    <string name="accuracy">Accuracy</string>
+    <string name="altitude">Altitude</string>
+    <string name="speed">Speed</string>
+    <string name="bearing">Bearing</string>
+    <string name="last_update">Last update</string>
+
+    <string name="follow_on_map">Follow on map</string>
+    <string name="save">Save</string>
+
+    <string name="track_preferences">Track Preferences</string>
+    <string name="update_interval">Update interval for fix your point in map (minutes)</string>
+    <string name="smallest_displacement">Smallest distance for fix your displacement (meters)</string>
+    <string name="end_point">Your end point</string>
+    <string name="end_point_example">Example:\nhttps://myendpointurl.com/rest/updatelocation</string>
+    <string name="end_point_info">You can use http and https for end point\'s request. Data will be send from POST. If you use a RESTful the data info will be send like Content-type: application/json</string>
+    <string name="request_example">Request example</string>
+
+    <string name="share_with">Share with</string>
+    <string name="message_about">This app was created to serve as a GPS server. You can set the URL of your application and receive data from the device location. Ideal for developers who want to make your life easier with a ready API.\n\nIf you want to rate us in Google Play.\n\nVersion %s</string>
+    <string name="rating">Rating</string>
+    <string name="close">Close</string>
+    <string name="ok">Ok</string>
+    <string name="i_dont_care">I don\'t care</string>
+    <string name="location_shared">Location shared</string>
+    <string name="hide">Hide</string>
+    <string name="stop_location">Stop Location</string>
+    <string name="update_at">Update at</string>
+    <string name="never">Never</string>
+    <string name="revoke_decision">Please, revoke your decision</string>
+    <string name="why_we_need_permission_location">Without permission for get your location we cannot capture any data from your location. Please, revoke your decision.</string>
+    <string name="why_we_need_permission_read_phone_state">Without permission for read your phone state we cannot get your IMEI\'s data. This information will be send together your location\'s data.</string>
+    <string name="sync_not_enable">Sync is not enable! Click to Fix.</string>
+
+    <string name="north">N</string>
+    <string name="south">S</string>
+    <string name="east">E</string>
+    <string name="west">W</string>
+
+    <string name="track_preferences_saved">Track preferences saved!</string>
+    <string name="gps_disconected">GPS disconected</string>
+    <string name="open_app">Open App</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_map">Map</string>
+    <string name="action_about">About</string>
+
+    <string name="title_activity_settings">Settings</string>
+    <string name="cant_display_position_on_map">Can\'t display your position on Maps</string>
+    <string name="define_endpoint">Define your endpoint</string>
+
+</resources>

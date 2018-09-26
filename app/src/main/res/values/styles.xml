@@ -1,0 +1,46 @@
+<resources>
+
+    <style name="AppTheme" parent="AppTheme.Base" />
+
+    <!-- Base application theme. -->
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light">
+        <item name="android:actionBarStyle">@style/Widget.Styled.ActionBar</item>
+        <item name="android:textColorPrimary">@android:color/black</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <item name="colorPrimary">@color/actionbar.primary</item>
+        <item name="colorPrimaryDark">@color/actionbar.primary.dark</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="colorAccent">@color/blue_900</item>
+        <item name="drawerArrowStyle">@style/drawerArrowToggle</item>
+        <item name="actionMenuTextColor">#ff63BBF7</item>
+
+        <item name="android:textViewStyle">@style/RobotoTextViewStyle</item>
+    </style>
+    <style name="drawerArrowToggle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">@android:color/white</item>
+    </style>
+    <style name="Widget.Styled.ActionBar" parent="Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/actionbar.primary</item>
+        <item name="android:backgroundSplit">@color/actionbar.primary</item>
+        <item name="android:divider">@android:color/white</item>
+        <item name="android:showDividers">middle</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:titleTextStyle">@style/ActionBarTitleText</item>
+
+        <!-- Support library compatibility -->
+        <item name="background">@color/actionbar.primary</item>
+        <item name="backgroundSplit">@color/actionbar.primary</item>
+        <item name="windowActionBarOverlay">true</item>
+    </style>
+    <style name="ActionBarTitleText" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="RobotoTextViewStyle" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/roboto</item>
+    </style>
+
+
+</resources>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="db_name" translatable="false">gpsmobile.sqlite</string>
+    <integer name="db_version">2</integer>
+    <string-array name="db_scan">
+        <item>mobi.stos.gpsmobile.bean.Position</item>
+    </string-array>
+    <string name="db_log" translatable="false">false</string>
+</resources>
